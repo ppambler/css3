@@ -1,6 +1,6 @@
-### ✍️ Tangxt ⏳ 2021-06-24 🏷️ readme
+### ✍️ Tangxt ⏳ 2021-06-24 🏷️ Readme
 
-# CSS 高级进阶 01 期
+# 01-CSS 高级进阶 01 期
 
 > 课程地址：[CSS 高级进阶 01 期](http://www.javascriptpeixun.cn/goods/show/186?targetId=1994&preview=0)
 
