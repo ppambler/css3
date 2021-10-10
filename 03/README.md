@@ -9,4 +9,4 @@
 - [01-HTML 元素分类和盒模型](./01.md)
 - [02-深入理解 width](./02.md)
 - [03-height 深入理解之 IFC](./03.md)
-- [04-height 深入理解-float，clear，BFC](./04.md)
+- [04-height 深入理解-Float、Clear、BFC](./04.md)
