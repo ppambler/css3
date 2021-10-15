@@ -47,6 +47,8 @@
 
 ![常见布局](assets/img/2021-10-14-12-26-14.png)
 
+文档：[Flexbox30 - SamanthaMing.com](https://www.samanthaming.com/flexbox30/)
+
 - [17-章节介绍](./17.md)
 - [18-主轴与交叉轴、换行与缩写](./18.md)
 - [19-主轴对齐详解、交叉轴对齐详解](./19.md)
