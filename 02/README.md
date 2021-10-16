@@ -55,4 +55,4 @@
 - [20-内联与块的上下左右居中布局、不定项居中布局](./20.md)
 - [21-均分列布局、子项分组布局](./21.md)
 - [22-flex-grow 扩展比例、 flex-shrink 收缩比例](./22.md)
-- [23-flex-basis 及 flex 缩写](./23.md)
+- [23-flex-basis、flex 缩写、order 排序、align-self 自个儿对齐](./23.md)
