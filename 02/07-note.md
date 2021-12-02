@@ -744,3 +744,85 @@ a {
 ### <mark>9）章节总结</mark>
 
 ![章节总结](assets/img/2021-12-02-18-57-04.png)
+
+➹：[css 笔记之版心和布局流程](https://www.cnblogs.com/zhangcheng94/p/12188515.html)
+
+➹：[CSS 版心和布局 - 简书](https://www.jianshu.com/p/c246529b067f)
+
+➹：[PC 端静态网页应用开发 - 知乎](https://zhuanlan.zhihu.com/p/376855729)
+
+➹：[设计网页，常见的宽度是多少像素？ - 知乎](https://www.zhihu.com/question/21042513)
+
+### <mark>10）测试与练习</mark>
+
+💡：测试题
+
+响应式布局中的移动优先原则是？ -> `min-width`值从小到大进行适配
+
+💡：练习题
+
+根据下面 HTML 结构，完成图示布局效果，编写对应 CSS 代码：
+
+``` html
+<style>
+  /* 代码编写区域 */
+</style>
+<section class="head">
+  <div>logo</div>
+  <ul>
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+    <li>item4</li>
+  </ul>
+</section>
+```
+
+![效果](assets/img/2021-12-02-19-13-16.png)
+
+要求如下：
+
+1. 断点值为 768px，小于 768px 时 -> head 区域高 100px。大于等于 768px 时 -> head 区域高 50px
+2. div、ul 在小于 768px 时，垂直排列，内容上下左右居中
+3. div、ul 在大于等于 768px 时，水平排列，内容上下居中，左右在两侧
+4. item 列表项之间间距为 50px
+
+参考答案：
+
+``` css
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.head {
+  height: 100px;
+  background: skyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head div {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.head ul {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+}
+@media (min-width: 768px) {
+  .head {
+    height: 50px;
+    flex-direction: row;
+  }
+  .head ul {
+    flex-grow: 0;
+  }
+}
+```
